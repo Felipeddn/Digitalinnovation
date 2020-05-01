@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="felip"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-01 03:53:38 "/>
+        <attribute name="created" value="ZmVsaXA7TEFQVE9QLUJHMzZQTzJMOzIwMjAtMDUtMDE7IjAzOjQ1OjAzICI7Mjc0NA=="/>
+        <attribute name="edited" value="ZmVsaXA7TEFQVE9QLUJHMzZQTzJMOzIwMjAtMDUtMDE7IjAzOjUzOjM4ICI7MjsyODYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, resultado, multiplicador" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="0"/>
+            <assign variable="multiplicador" expression="9"/>
+            <while expression="numero &lt;= 10">
+                <assign variable="resultado" expression="multiplicador * numero"/>
+                <output expression="&quot;9 x &quot; &amp; numero &amp; &quot; = &quot; &amp; resultado" newline="True"/>
+                <assign variable="numero" expression="numero+1"/>
+            </while>
+            <output expression="&quot;Fim da Tabuada&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

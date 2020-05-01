@@ -1,0 +1,23 @@
+desafio do pinguim
+clique no filhote de pinguim azul
+clique na mae de pinguim azul
+atravesse
+clique na mae de pinguim azul
+atravesse
+clique no filhote de pinguim verde
+atravesse
+clique no filhote de pinguim azul
+atravesse
+clique na mae de pinguim verde
+atravesse
+clique na mae de pinguim verde
+atravesse
+clique no filhote de pinguim vermelho
+atravesse
+clique no filhote de pinguim verde
+atravesse
+clique na mae de pinguim vermelho
+atravesse
+clique na mae de pinguim vermelho
+clique no filhote de pinguim vermelho
+fim!
