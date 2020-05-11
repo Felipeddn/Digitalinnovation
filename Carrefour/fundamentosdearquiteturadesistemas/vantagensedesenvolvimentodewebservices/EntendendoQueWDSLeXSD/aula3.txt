@@ -1,0 +1,18 @@
+	Aula 3
+ 	Entendendo o que é um WDSL e XSD
+ o que é um WDSL
+
+WSDL - web service description language
+usado para descrever web services, funciona como um contrato do serviço.
+a descrição é feito em um documento XML, onde é descrito o serviço, especificações de acesso, operações e 
+métodos.
+
+ o que é um XSD
+
+XSD - XML schema definition 
+é um schema no formato XML usado para definir a estrutura de dados que será validada no XML. define as tags 
+obrigatórias.
+o XSD funciona como uma documentação de como se deve ser montado o SOAP Message (XML) que será enviado através de 
+web service.
+
+ SOAP na prática	

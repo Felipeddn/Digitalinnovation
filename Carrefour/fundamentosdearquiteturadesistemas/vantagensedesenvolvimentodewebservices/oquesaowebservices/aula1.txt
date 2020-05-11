@@ -1,0 +1,19 @@
+	Servicos Web
+ o que são serviços web
+
+serviços web ou web services são soluções para aplicações se comuniquem independente do hardware ou software
+serviços web são api´s que se comunicam pelo meio de redes sobre o protocolo http
+
+ quais as vantagens de usar serviços web
+
+linguagem  comum 
+integração de linguagem
+reutilização de implementação
+segurança separa a intranet dos dados tratados dos servidores web
+custos uma solução quase unica que diminui muito os custos
+
+ tecnologias mais usadas para desenvolvimento de serviços web
+soap arquiteturas usadas em serviços web muito atrelado ao xml
+rest arquiteturas usadas em serviços web muito atrelado ao xml e json
+xml linguagens de marcação
+json linguagem de marcação

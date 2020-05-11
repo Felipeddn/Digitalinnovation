@@ -1,0 +1,39 @@
+	Aula 2
+	Estrutura SOAP
+ o que é um SOAP
+
+SOAP - Simple Object Acess Protocol.
+é um protocolo baseado em xml para acessar serviços web principalmente por HTTP.
+pode-se dizer que SOAP é uma definição de como serviços web se comunicam.
+foi desenvolvido para facilitar integrações entre aplicações.
+
+ as vantagens de usar SOAP
+
+permite integrações entre aplicações, independente de linguagem, pois usa como linguagem comum o xml.
+é independente de plataforma e software.
+meio de transporte genérico, ou seja, pode ser usado por outros protocolos além de HTTP. SOAP é um protocolo 
+e permite usar outros protocolos.
+
+ o que é xml
+
+xml - extensible markup language 
+é uma linguagem de marcação criada na década de 90 pela W3C. W3C também criou SOAP.
+facilita a separação de conteudo. as tags separa bem o conteudo das mensagens.
+não tem limitação de criação de tags. 
+linguagem comum para integrações entre aplicações. 
+
+ entender a estrutura de uma mensagem SOAP
+
+o "SOAP Message" possui uma estrutura única que deve sempre ser seguida.
+
+	===============
+	|SOAP Envelope|
+	|SOAP Header  |
+	|SOAP Body    |
+	===============
+SOAP Envelope é o primeiro elemento de um documento e é usado para encapsular toda a mensagem SOAP.
+SOAP Header é o elemento onde possui informações de atributos e metadados da requisição.ip de origem, dns, token, credenciais de autenticação. mesmo vazio é importante
+ter um header.
+SOAP Body é o elemento que contém os detalhes da mensagem. atributos, onde fica realmente o conteúdo. o body possui um método e um atributo que ficam em tags.
+tag - valor
+chave - conteúdo
